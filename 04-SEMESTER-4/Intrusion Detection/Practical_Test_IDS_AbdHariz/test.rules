@@ -1,0 +1,1 @@
+alert icmp 192.168.58.128 any -> $HOME_NET any (msg:"Somebody is accessing my snort machine"; sid:1000001; rev:1;)
